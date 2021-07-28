@@ -1,0 +1,49 @@
+/* Reset */
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #9ed8ff;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* Immagine */
+.contenitore-img{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 600px;
+}
+/* /Immagine */
+
+/* Testo */
+#titolo, #titolo2, #titolo3, #titolo4, button{
+    background-color: ivory;
+    border: 5px double #EA9491;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+/* /Testo */
+
+/* Button */
+button:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+button a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.bottone{
+    display: flex;
+    justify-content: center;
+}
+/* /Button */
