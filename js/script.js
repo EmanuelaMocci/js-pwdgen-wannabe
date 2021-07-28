@@ -13,6 +13,7 @@ var cognome = prompt('Inserisci il tuo cognome');
 document.getElementById('titolo2').innerHTML += cognome;
 
 // 3. Chiedi il suo colore preferito
+
 // Prendo il nome
 var colore = prompt('Inserisci il tuo colore preferito');
 // Inserisco il tag per il colore preferito dell'utente
