@@ -20,3 +20,5 @@ var colore = prompt('Inserisci il tuo colore preferito');
 document.getElementById('titolo3').innerHTML += colore;
 
 // 4. Scrivi sulla pagina nomecognomecolorepreferito40
+var risultato = nome + cognome + colore;
+document.getElementById('titolo4').innerHTML += risultato + 40;
