@@ -1,5 +1,5 @@
 /* Reset */
-body{
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,11 +7,21 @@ body{
 
 body{
     background-color: #9ed8ff;
-    width: 70%;
-    margin: auto;
-    margin-top: 60px;
     font-family: 'Josefin Sans', sans-serif;
 }
+.contenitore-principale{
+    width: 70%;
+    margin: auto;
+}
+/* Titoli */
+.contenitore-titoli{
+    margin-top: 60px;
+}
+h2, .bottone{
+    margin: 30px 0;
+}
+/* /Titoli */
+
 /* Immagine */
 .contenitore-img{
     display: flex;
@@ -19,6 +29,11 @@ body{
 }
 img{
     width: 600px;
+    margin: 30px 0;
+}
+.contenitore-img-footer{
+    display: flex;
+    justify-content: center;
 }
 /* /Immagine */
 
@@ -33,7 +48,6 @@ img{
 
 /* Button */
 button:hover{
-    background-color: white;
     opacity: 0.5;
 }
 button a{
