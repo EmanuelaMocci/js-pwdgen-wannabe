@@ -27,13 +27,25 @@ h2, .bottone{
     display: flex;
     justify-content: center;
 }
-img{
+.contenitore-img img{
     width: 600px;
     margin: 30px 0;
 }
 .contenitore-img-footer{
     display: flex;
     justify-content: center;
+}
+.contenitore-img-footer img{
+    width: 400px;
+    margin: 30px 0;
+}
+.footer-bottom{
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+}
+.footer-bottom:hover i{
+    color: red;
 }
 /* /Immagine */
 
@@ -48,7 +60,10 @@ img{
 
 /* Button */
 button:hover{
-    opacity: 0.5;
+    opacity: 0.8;
+    background-color: pink;
+    transform: scale(1.2);
+    color: white;
 }
 button a{
     text-align: center;
